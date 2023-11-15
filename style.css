@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex; /* Deixa os itens lado a lado  */
+    align-items: center; /* Alinhamento dos itens ao centro */
+    justify-content: space-evenly; /* */
+    padding: 14px; /* Preenchimento */ 
+    background-color: #6495ED; /* Cor de fundo do nosso Cabeçalho/Header */
+    overflow: hidden; /* Quando o item passar da caixa cortar*/ 
+    line-height: 100px; /* Altura da linha*/ 
+    max-height: 100px; /* Altura máxima */
+}
+
+
+header>h1 { /* Titulo do Cabeçalho  */
+
+    /* Selecionamos aqui a cor da letra do nosso H1, ou seja, do nosso titulo */
+    
+    color: white;
+    /* Chamamos a propriedade color e definimos uma cor em questão */
+}
+
+header>img { /* Imagem do Cabeçalho */
+    
+}
+
+
+#menu-header{
+    display: flex;
+    align-items: center;
+}
+
+#list-header{
+    display: flex;
+    margin-right: 1rem;
+}
+
+#lsit-menu{
+    display: flex;
+}
+
+.item-header{
+    margin-left: 25px;
+}
+
+.item-header>a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.item-header>a:hover{
+    transition: 0.8s;
+    color: royalblue;
+}
+
+#botao-header{
+    display: flex;
+}
+
+#botao-header>button>a{
+    display: flex;
+    text-decoration: none;
+    color: purple;
+    align-items: center;
+}
+
+#botao-header>button>a:hover{
+    transition: 0.8s;
+    color: orange;
+    text-decoration: none;
+}
+
+#botao-header>button>a>img{
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+
+
+
+
