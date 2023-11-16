@@ -39,6 +39,10 @@ header {
 
     max-height: 100px;
     /* Altura máxima */
+
+    width: 100%;
+    
+    position: fixed;
 }
 
 
@@ -50,6 +54,7 @@ header>h1 {
 }
 
 header>img { /* Imagem do Cabeçalho */
+    
 }
 
 #menu-header {
@@ -89,12 +94,15 @@ header>img { /* Imagem do Cabeçalho */
 }
 
 .item-header>a:hover {
-    /* */
+    /* Quando o cursor estiver em cima */
 
-    transition: 0.8s;
+    transition: 0.4s;
     /* Transição */
 
-    color: royalblue;
+    font-size: 15px;
+    /* Tamanho da fonte */
+
+    color: rgb(255, 255, 255);
     /* Cor da letra*/
 }
 
@@ -145,3 +153,4 @@ header>img { /* Imagem do Cabeçalho */
     margin-right: 2px;
     /* Espaçamento da direita */
 }
+
