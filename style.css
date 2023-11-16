@@ -1,89 +1,152 @@
-*{
+* {
     padding: 0;
+    /* */
+
     margin: 0;
+    /* */
+
     vertical-align: baseline;
+    /* */
+
     list-style: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-header{
-    display: flex; /* Deixa os itens lado a lado  */
-    align-items: center; /* Alinhamento dos itens ao centro */
-    justify-content: space-evenly; /* */
-    padding: 14px; /* Preenchimento */ 
-    background-color: #6495ED; /* Cor de fundo do nosso Cabeçalho/Header */
-    overflow: hidden; /* Quando o item passar da caixa cortar*/ 
-    line-height: 100px; /* Altura da linha*/ 
-    max-height: 100px; /* Altura máxima */
-}
-
-
-header>h1 { /* Titulo do Cabeçalho  */
-
-    /* Selecionamos aqui a cor da letra do nosso H1, ou seja, do nosso titulo */
+    /* */
     
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* */
+}
+
+header {
+    display: flex;
+    /* Deixa os itens lado a lado  */
+
+    align-items: center;
+    /* Alinhamento dos itens ao centro */
+
+    justify-content: space-evenly;
+    /* */
+
+    padding: 14px;
+
+    /* Preenchimento */
+    background-color: #6495ED;
+    /* Cor de fundo do nosso Cabeçalho/Header */
+
+    overflow: hidden;
+    /* Quando o item passar da caixa cortar*/
+
+    line-height: 100px;
+    /* Altura da linha*/
+
+    max-height: 100px;
+    /* Altura máxima */
+}
+
+
+header>h1 {
+    /* Selecionamos aqui a cor da letra do nosso H1, ou seja, do nosso titulo */
+
     color: white;
     /* Chamamos a propriedade color e definimos uma cor em questão */
 }
 
 header>img { /* Imagem do Cabeçalho */
-    
 }
 
-
-#menu-header{
+#menu-header {
     display: flex;
+    /* DEixa o item lado a lado*/
+
     align-items: center;
+    /* Alinhamento dos itens ao centro */
 }
 
-#list-header{
+#list-header {
+    /* */
     display: flex;
+    /* Deixa os itens lado a lado */
+
     margin-right: 1rem;
+    /* Espaçamento da direita / rem significa 16px */
 }
 
-#lsit-menu{
+#lsit-menu {
+    /* */
     display: flex;
+    /* Deixa os itens lado a lado */
 }
 
-.item-header{
+.item-header {
+    /* */
     margin-left: 25px;
+    /* Espaçamento da Esuquerda */
 }
 
-.item-header>a{
+.item-header>a {  /* */
+
     text-decoration: none;
+    /* Tira o subliniado do link */
+
     color: black;
+    /* Cor da letra*/
+
     font-size: 14px;
+    /* Tamanho da letra */
 }
 
-.item-header>a:hover{
+.item-header>a:hover {
+    /* */
+
     transition: 0.8s;
+    /* Transição */
+
     color: royalblue;
+    /* Cor da letra*/
 }
 
-#botao-header{
+#botao-header {
+    /* */
+
     display: flex;
+    /* Deixa os itens lado a lado  */
 }
 
-#botao-header>button>a{
+#botao-header>button>a {
+    /* */
+
     display: flex;
+    /* Deixa os itens lado a lado */
+
     text-decoration: none;
+    /* Tira o subliniado do link*/
+
     color: purple;
+    /* Cor da letra */
+
     align-items: center;
+    /* Deixamos os itens ao centro */
 }
 
-#botao-header>button>a:hover{
+#botao-header>button>a:hover {
+    /* */
     transition: 0.8s;
+    /* transição */
+
     color: orange;
+    /* Cor da letra*/
+
     text-decoration: none;
+    /* Tira o subliniado do link */
 }
 
-#botao-header>button>a>img{
+#botao-header>button>a>img {
+    /* */
+
     width: 30px;
+    /* Largura */
+
     height: 30px;
+    /* Altura */
+
     margin-right: 2px;
+    /* Espaçamento da direita */
 }
-
-
-
-
-
