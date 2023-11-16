@@ -53,14 +53,14 @@ header>img { /* Imagem do Cabeçalho */
 }
 
 #menu-header {
-    display: flex;
+  
     /* DEixa o item lado a lado*/
 
     align-items: center;
     /* Alinhamento dos itens ao centro */
 }
 
-#list-header {
+#list-menu {
     /* */
     display: flex;
     /* Deixa os itens lado a lado */
@@ -69,11 +69,6 @@ header>img { /* Imagem do Cabeçalho */
     /* Espaçamento da direita / rem significa 16px */
 }
 
-#lsit-menu {
-    /* */
-    display: flex;
-    /* Deixa os itens lado a lado */
-}
 
 .item-header {
     /* */
