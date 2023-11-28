@@ -11,7 +11,7 @@
     list-style: none;
     /* */
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     /* */
 }
 
@@ -25,35 +25,35 @@ header {
     justify-content: space-evenly;
     /* */
 
-    padding: 14px;
+    padding: 3%;
 
     /* Preenchimento */
-    background-color: #6495ED;
+    background-color: #32C2B9;
     /* Cor de fundo do nosso Cabeçalho/Header */
 
     overflow: hidden;
     /* Quando o item passar da caixa cortar*/
 
-    line-height: 100px;
-    /* Altura da linha*/
-
-    max-height: 100px;
-    /* Altura máxima */
-
     width: 100%;
     
+    line-height: 80px;
+
+    max-height: 80px;
+
     position: fixed;
 }
 
 
-header>h1 {
+header > h1 {
     /* Selecionamos aqui a cor da letra do nosso H1, ou seja, do nosso titulo */
 
     color: white;
     /* Chamamos a propriedade color e definimos uma cor em questão */
+
+    padding-right: 0;
 }
 
-header>img { /* Imagem do Cabeçalho */
+header > img { /* Imagem do Cabeçalho */
     
 }
 
@@ -86,25 +86,36 @@ header>img { /* Imagem do Cabeçalho */
     text-decoration: none;
     /* Tira o subliniado do link */
 
+    background-color: #32C2B9;
+
+    
     color: black;
     /* Cor da letra*/
 
     font-size: 14px;
     /* Tamanho da letra */
+
+    
+    text-align: center;
 }
 
 .item-header>a:hover {
     /* Quando o cursor estiver em cima */
 
+    background-color: #00686c;
+
+    padding: 140% 0;
+
     transition: 0.4s;
     /* Transição */
 
-    font-size: 15px;
+    /* font-size: 15px; */
     /* Tamanho da fonte */
 
     color: rgb(255, 255, 255);
     /* Cor da letra*/
 }
+
 
 #botao-header {
     /* */
