@@ -109,7 +109,6 @@ header>img { /* Imagem do Cabeçalho */
     transition: 0.4s;
     /* Transição */
 
-    /* font-size: 15px; */
     /* Tamanho da fonte */
 
     color: rgb(255, 255, 255);
@@ -164,4 +163,21 @@ header>img { /* Imagem do Cabeçalho */
     margin-right: 2px;
     /* Espaçamento da direita */
 }
+
+#info {
+    padding: 15%;
+    background-color: #32c2b869;
+}
+
+.Info-descricao {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 15px;
+}
+
+#info-clientes{
+    
+}
+
 
