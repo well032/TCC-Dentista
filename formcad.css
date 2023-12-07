@@ -40,7 +40,7 @@ header {
 
 #form-completo {
     width: 100%; /* Largura */
-    height: 100vh; /* Tamanho */
+    height: 78vh; /* Tamanho */
     display: flex; /* Responsável por colocar os itens na mesma linha (lado a lado) */
     align-items: center; /* Alinhar os itens para o centro */
     justify-content: center; /* Justifiar-conteúdo ao centro */
@@ -87,9 +87,9 @@ form {
     padding: 5% 5% 4% 4%;
     border-radius: 35px;
     border-color: black;
-    padding
+    border-style: solid;
+    border-width: 1.5px;
+
 }
-
-
 
 
