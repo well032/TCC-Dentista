@@ -4,72 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TCC</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formcad.css">
 </head>
 <body>
 
-            <img  src="" alt="">
+<div id="fundo">
 
-            <section>
+        <header>
+            <div id="texto-header">
+            <img src="imagens/Logo PNG.png" alt="">
+            <h1>DOMRISOS</h1>
+            
+        </header>
+
+            <section id="form-completo">
+
+        <div class="container">
+
+
+            <h1 id="titulo">Cadastro</h1>
+
 
             <form action="">
 
-                <h2>Cadastro</h2>
-
-                <p>Cadastre-se e tenha sua primeira consulta gratuida conosco</p>
-
+                <h3 class="text-inicio">Cadastre-se e tenha sua primeira consulta gratuida conosco</h3>
 
                 <div class="input-form">
 
-                    <input type="text" id="nome-box" class="text-box" name="nome" required>
-                    
-                    <label for="nome-box"> Nome completo </label>
-
+                    <input type="text" id="nome-box" class="text-box" name="nome" placeholder="NOME COMPLETO" required>
+                       
                 </div>
 
                 <div class="input-form">
-                    <input type="email" id="email-box" class="text-box" name="email" required>
 
-                    <label for="email-box"> Email </label>
+                    <input type="email" id="email-box" class="text-box" name="email" placeholder="EMAIL" required>
+
                 </div>
 
 
                 <div class="input-form">
-                    <input type="password" id="psw-box" class="text-box" name="senha" required>
-                    
-                    <label for="psw-box"> Senha</label>
+                    <input type="password" id="psw-box" class="text-box" name="senha" placeholder="SENHA" required>
+
                 </div>
 
                 <div class="input-form">
-                    <input type="password" id="psw-box" class="text-box" name="senha" required>
-                    
-                    <label for="pswconf-box">Confirmar senha</label>
+
+                    <input type="password" id="psw-box" class="text-box" name="confirmsenha" placeholder="CONFIRMAR SENHA" required>
                 </div>
 
-                <div class="input-form">
+                <div class="input-checkbox">
+
                     <input type="checkbox" id="check-box" class="check-box" name="check" required>
                     
                     <label for="check-box">Concordo com os <a href="">Termos de serviço</a></label>
                 </div>
 
-                <div class="input-formk">
+                <div class="input-checkbox">
+
                     <input type="checkbox" id="check-box" class="check-box" name="check">
                     
-                    <label for="check-box">Aceito receber E-mails com promoções, descontos e ofertas da empresa DomRisos</label>
+                    <label for="">Aceito receber E-mails com promoções, descontos e ofertas da empresa DomRisos</label>
                 </div>
 
                 <div class="input-submit">
+
                     <input type="submit" id="submit-button" class="submit" name="submit" value="Concluir Cadastro">
 
-                    <label for="submit-button"></label>
                 </div>
 
-
+                
+        </div>
+        
             </form>
 
         </section>
+        
 
     
-
+    </div>
+    
 </body>
 </html>
