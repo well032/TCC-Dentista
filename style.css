@@ -28,7 +28,7 @@ header {
     padding: 3%;
 
     /* Preenchimento */
-    background-color: #32C2B9;
+    background-color: #d8d2d2;
     /* Cor de fundo do nosso Cabeçalho/Header */
 
     overflow: hidden;
@@ -40,9 +40,7 @@ header {
 
     max-height: 80px;
 
-    position: fixed;
 }
-
 
 header > h1 {
     /* Selecionamos aqui a cor da letra do nosso H1, ou seja, do nosso titulo */
@@ -54,6 +52,8 @@ header > h1 {
 }
 
 header>img { /* Imagem do Cabeçalho */
+    width: 10%;
+    height: 40%;
     
 }
 
@@ -85,9 +85,6 @@ header>img { /* Imagem do Cabeçalho */
 
     text-decoration: none;
     /* Tira o subliniado do link */
-
-    background-color: #32C2B9;
-
     
     color: black;
     /* Cor da letra*/
@@ -179,6 +176,42 @@ header>img { /* Imagem do Cabeçalho */
 #info-clientes{
     
 }
+
+#div-destaque h2{
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+#div-destaque p{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* estilizando o rodapé*/
