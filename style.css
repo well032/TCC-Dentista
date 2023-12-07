@@ -181,3 +181,24 @@ header>img { /* Imagem do Cabeçalho */
 }
 
 
+/* estilizando o rodapé*/
+footer {
+    padding: 40px;
+    background-color: #00686c;
+
+   
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-menu-footer {/* Aqui chamamos nossa class das LI */
+    align-items: baseline;
+    margin-top: 30px;/* Espaçamento superior*/
+    display: flex;/* Alinhando  os itens lado a lado*/
+}
+
+
