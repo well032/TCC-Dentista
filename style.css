@@ -101,7 +101,7 @@ header>img { /* Imagem do Cabeçalho */
 
     background-color: #00686c;
 
-    padding: 140% 0;
+    padding: 140% 0; /*se possivel trocar por vmax*/
 
     transition: 0.4s;
     /* Transição */
@@ -162,7 +162,7 @@ header>img { /* Imagem do Cabeçalho */
 }
 
 #info {
-    padding: 15%;
+    padding: 15%; /* podemos trocar por vmax*/
     background-color: #32c2b869;
 }
 
