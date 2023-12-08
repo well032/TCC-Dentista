@@ -38,58 +38,98 @@ header {
     color: white;
 }
 
-#form-completo {
-    width: 100%; /* Largura */
-    height: 78vh; /* Tamanho */
-    display: flex; /* Responsável por colocar os itens na mesma linha (lado a lado) */
-    align-items: center; /* Alinhar os itens para o centro */
-    justify-content: center; /* Justifiar-conteúdo ao centro */
-}
-
 
 .container { /* Aqui estamos chamando nossa Class da DIV PAI */
-    max-width: 1280px; /* Atribuimos aqui um tamanho máximo de largura que essa Class irá exercer */
     margin: 0 auto; /* dizemos ao navegar que as margens superior e inferior são iguais a 0 e as da esquerda a direita são automáticas */
+    margin-top: 1%;
 }
 
-.text-inicio {
-    text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 5%;
-    color: white;
-}
 
 #titulo {
     text-align: center;
+    margin-bottom: 1%;
     font-size: 2.5em;
     color: white;
 }
 
-.text-box {
-    margin-bottom: 2%;
-    width: 40%;
-    height: 5vh;
-    border-radius: 75px;
-    padding: 2%;
-    font-size: 0.8rem;
-    border: solid;
-    border-color: black;
-    border-width: 1.5px;
-}
-
 .input-form {
-    align-items: center;
     text-align: center;
 }
 
 form {
-    background-color: #8090917c;
-    padding: 5% 5% 4% 4%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-color: #ffffff80;
+    width: 35%;
+    height: 75vh;
+    padding: 5%;
     border-radius: 35px;
     border-color: black;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
 
 }
 
+.text-box {
+    margin-bottom: 2%;
+    width: 80%;
+    height: 6vh;
+    border-radius: 100px;
+    padding: 2%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    
+}
 
+
+.psw-box {
+    margin-bottom: 2%;
+    width: 80%;
+    height: 6vh;
+    border-radius: 75px;
+    padding: 2%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    
+}
+
+#fpsw-box {
+ margin-top: 5%;
+}
+
+
+
+
+.input-checkbox {
+    flex-wrap: wrap;
+    margin-bottom: 0.3em;
+    font-size: 0.8em;
+    margin-left: 5%;
+}
+
+#fcheck-box {
+    margin-top: 3%;
+}
+ 
+.submit {
+    background-color: #44d4cb;
+    width: 30vh;
+    height: 8vh;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.input-submit {
+    margin-top: 8%;
+    text-align: center;
+}
