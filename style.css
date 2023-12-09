@@ -25,20 +25,16 @@ header {
     justify-content: space-evenly;
     /* */
 
-    padding: 3%;
 
-    /* Preenchimento */
     background-color: #d8d2d2;
     /* Cor de fundo do nosso Cabeçalho/Header */
 
     overflow: hidden;
     /* Quando o item passar da caixa cortar*/
 
-    width: 100%;
-    
-    line-height: 80px;
+    width: 950;
 
-    max-height: 80px;
+    text-align: center;
 
 }
 
