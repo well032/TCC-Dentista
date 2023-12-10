@@ -36,6 +36,7 @@ header {
     font-size: 300%;
     margin-left: 2%;
     color: white;
+    font-weight: 350;
 }
 
 
@@ -136,6 +137,6 @@ form {
 
 @media (max-width : 430px) {
 
-    header
+
 
 }
