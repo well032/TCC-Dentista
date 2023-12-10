@@ -98,13 +98,15 @@ header {
 #info-destaque P {
     color: white;
     font-size: 2em;
-    background-color: rgb(255, 0, 0);
+    background-color: 	#C0C0C0;
     padding: 1% 5%;     
     border-radius: 15%;
 
 }
 
 /* IMG DESTAQUE */
+
+
 
 
 /* Tratamentos */
@@ -142,7 +144,124 @@ margin-bottom: 5%;
     color: black;
     font-weight: 500;
 }
+
 /* Tratamentos */
+
+#funcionarios{
+    background-color: 	#C0C0C0;
+}
+
+#funcionarios h2{
+    margin-top: 10%;
+    justify-items: center;
+    text-align: center;
+}
+
+#funcionarios p{
+    text-align: right;
+    padding: 10%; /* n consegui clc o texto  pro lado.*/
+}
+
+#funcionarios img{
+    padding: 30px;
+    background-position: left;
+    width: 25%;
+    height: 25%;
+    border-radius: 20%;
+}
+
+#visite{
+    margin-top: 0.3%;
+    background-image: url(imagens/Lente\ de\ Contato.jpg); /* Imagem da criança */ 
+    padding: 8vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#visite h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#sobre-nos{
+    padding: 10%;
+    background-color: white;
+}
+
+#sobre-nos h2{
+    text-align: left;
+    padding: 50px;
+}
+
+#sobre-nos p{
+    text-align: left;
+}
+
+#sobre-nos img{
+    width: 25%;
+    height: 30%;
+    border-radius: 20%;
+}
+
+#detalhes{
+    background-color: #C0C0C0 ;
+    padding: 2%;
+    display: flex;
+}
+
+#detalhes li{  /* colocar os itens lado a lado, nao consegui, tentei ao maximo !!*/ 
+    padding: 1%;
+    overflow: hidden;
+    align-items: center;
+    display: flex; 
+}
+
+#detalhes p {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+#detalhes img {
+    width: 10%;
+    height: 5%;
+    display: flex;
+   
+}
+
+
+/* estilizando o rodapé*/
+footer {
+    background-color: #32C2B9;
+    padding: 1%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+footer img{
+    background-color: white;
+    border-radius: 50%;
+    width: 8%;
+    border-style: transparent;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -187,34 +306,3 @@ margin-bottom: 5%;
 
 
 
-
-
-
-
-
-
-
-
-
-/* estilizando o rodapé*/
-footer {
-    padding: 40px;
-    background-color: #00686c;
-
-
-
-}
-
-footer ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.item-menu-footer {
-    /* Aqui chamamos nossa class das LI */
-    align-items: baseline;
-    margin-top: 30px;
-    /* Espaçamento superior*/
-    display: flex;
-    /* Alinhando  os itens lado a lado*/
-}
