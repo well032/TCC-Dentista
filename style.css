@@ -1,4 +1,4 @@
-* {
+ * {
     padding: 0;
     /* */
 
@@ -16,6 +16,12 @@
 }
 
 /* LOGO */
+#line{
+    background-color: #238881c5;
+    width: 100%;
+    height: 1em;
+}
+
 header {
     background-color: #32C2B9;
     padding: 1%;
@@ -72,7 +78,7 @@ header {
 
 /* IMG DESTAQUE */
 #destaque {
-    margin-top: 0.3%;
+    margin-top: 0.2%;
     background: linear-gradient(180deg, #5f5f5f63 8.33%, rgba(105, 105, 105, 0.445)), url(imagens/IMG\ DESTAQUE.jpg);
     /* Filtro com imagem de fundo */
     padding: 13vw;
@@ -100,11 +106,11 @@ header {
 }
 
 #info-destaque P {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     background-color: #C0C0C0;
-    padding: 1% 5%;
-    border-radius: 15%;
+    padding: 1% 7%;
+    border-radius: 30px;
 
 }
 
@@ -220,13 +226,18 @@ header {
 
 /* Sobre Nós */
 #sobre-nos {
-    padding: 10%;
+    padding: 13vw;
     background-color: white;
 }
 
 #sobre-nos h2 {
     text-align: left;
-    padding: 50px;
+
+}
+
+#sobre-nos h3 {
+    background-color: #32C2B9;
+    padding-right: 1px;
 }
 
 #sobre-nos p {
@@ -246,26 +257,39 @@ header {
 
 #detalhes {
     background-color: #C0C0C0;
-    padding: 2%;
+    padding: 1%;
     display: flex;
+
+}
+
+#detalhes ul {
+    /* colocar os itens lado a lado, nao consegui, tentei ao maximo !!*/
+    
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+
 }
 
 #detalhes li {
     /* colocar os itens lado a lado, nao consegui, tentei ao maximo !!*/
-    padding: 1%;
+ 
     overflow: hidden;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 #detalhes p {
     display: flex;
     align-items: center;
     margin-left: 2%;
+    font-weight: 450;
+    text-align: center;
 }
 
 #detalhes img {
-    width: 10%;
+    width: 15%;
     height: 5%;
     display: flex;
 
