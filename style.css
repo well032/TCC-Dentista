@@ -176,7 +176,7 @@ header {
 }
 
 #funcionario-text p {
-    max-width: 50%;
+    max-width: 60%;
     margin: 3%;
     margin-left: 10%;
     font-size: 1.2em;
@@ -233,7 +233,7 @@ header {
 
 #sobre-nos h2 {
     text-align: left;
-  
+
     font-size: 2em;
     font-weight: 450;
 }
@@ -241,13 +241,14 @@ header {
 #sobre-nos p {
     max-width: 50%;
     font-size: 1.3em;
+    margin-top: 3%;
     }
 
 #sobre-nos h3 {
-    background-color: #C0C0C0;
-    padding: 1% 7%;
-    border-radius: 30px;
-    max-width: 16%;
+    background-color:  #32C2B9;
+    padding: 1% 5%;
+    border-radius: 15px;
+    max-width: 18%;
 }
 
 #sobre-nos img {
@@ -292,7 +293,7 @@ header {
     display: flex;
     align-items: center;
     margin-left: 2%;
-    font-weight: 450;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -306,6 +307,7 @@ header {
 
 /* estilizando o rodapé*/
 footer {
+    margin-top: 5%;
     background-color: #32C2B9;
     padding: 1%;
     overflow: hidden;
