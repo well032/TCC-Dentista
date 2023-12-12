@@ -309,28 +309,63 @@ footer {
     background-color: #32C2B9;
     padding: 1%;
     overflow: hidden;
+    text-decoration: none;
     align-items: center;
+}
+
+
+#loc {
     display: flex;
+    margin: 0;
+    float: right;
+    justify-content: end;
+    text-align: end;
+}
+
+#menu-footer ul{
+    display: flex;
+
+}
+
+#imgtxt-footer a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
 }
 
-footer img {
-    background-color: white;
-    border-radius: 50%;
-    width: 8%;
-    border-style: transparent;
+#imgtxt-footer a img {
+    width: 50%;
+    border-radius: 50vh;
 }
 
-footer p {
+#imgtxt-footer a h2 {
+    margin-left: 1rem;
+    font-size: 2.5em;
+    color: white;
+    font-weight: 200;
+}
+
+.meio-footer a {
+    text-decoration: none;
     display: flex;
-    align-items: center;
-    margin-left: 2%;
+    text-align: center;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2em;
 }
 
+#ultimo-meio {
+    margin-right: 40%;
+}
 
-
-
-
+#linha-footer {
+    width: 160vh;
+    height: 3px;
+    border-width: 0;
+    background-color: white;
+    margin-right: 4%;
+}
 
 
 
