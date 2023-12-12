@@ -140,16 +140,16 @@ header {
 
 }
 
-.tratamento-list img {
+.tratamento-item img {
     width: 60%;
     border-radius: 50%;
 }
 
-.tratamento-list a {
+.tratamento-item a {
     text-decoration: none;
 }
 
-.tratamento-list p {
+.tratamento-item p {
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -180,6 +180,7 @@ header {
     margin: 3%;
     margin-left: 10%;
     font-size: 1.2em;
+    text-align: justify;
 }
 
 #funcionario-text #txt2 {
@@ -335,6 +336,7 @@ footer p {
 
 
 @media (max-width : 430px) {
+    /* LOGO */
 
     header {
         
@@ -361,14 +363,66 @@ footer p {
         font-size: 1.5em;
         margin-left: 50%;
     }
+    /* LOGO */
+
+    #destaque {
+        padding: 20%;
+    }
+
+    #info-destaque p  {
+       justify-content: space-between;
+    }
+
+    /* Tratamentos */
 
     #tratamentos {
         font-size: 1em;
     }
 
-    .tratamento-list{
+    #tratamentos ul {
         display: block;
+        text-align: center;
+        margin-bottom: 1em;
     }
+
+    /* Tratamentos */
+
+
+    #img-thaise {
+        display: block;
+        margin: 2%;
+        text-align: center;
+    }
+
+    #img-thaise img {
+        width: 90%; /* tamanho da imagem*/
+        margin-top: 10%;
+    }
+
+    #funcionario-text p{
+        margin: 4%;
+        max-width: none;
+    }
+
+    #funcionario-text #txt2 {
+        max-width: none;
+    } 
+
+    #funcionario-text h2 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #funcionario-info {
+        font: bold; /* deixar a letra um pouco mais grossa*/
+        font-size: 1.2em;
+        display: block;
+        text-align: justify;
+        margin: 0;
+        max-width: none;
+        
+    }
+
 
   
 
