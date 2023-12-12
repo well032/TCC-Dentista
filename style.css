@@ -105,7 +105,7 @@ header {
 
 }
 
-#info-destaque P {
+#info-destaque p {
     color: rgb(0, 0, 0);
     font-size: 2em;
     background-color: #C0C0C0;
@@ -226,22 +226,27 @@ header {
 
 /* Sobre Nós */
 #sobre-nos {
-    padding: 13vw;
     background-color: white;
+    padding: 5%;
 }
 
 #sobre-nos h2 {
     text-align: left;
-
-}
-
-#sobre-nos h3 {
-    background-color: #32C2B9;
-    padding-right: 1px;
+  
+    font-size: 2em;
+    font-weight: 450;
 }
 
 #sobre-nos p {
-    text-align: left;
+    max-width: 50%;
+    font-size: 1.3em;
+    }
+
+#sobre-nos h3 {
+    background-color: #C0C0C0;
+    padding: 1% 7%;
+    border-radius: 30px;
+    max-width: 16%;
 }
 
 #sobre-nos img {
@@ -250,6 +255,9 @@ header {
     border-radius: 20%;
 }
 
+#div-sobre{
+    display: flex;
+}
 /* Sobre Nós */
 
 
