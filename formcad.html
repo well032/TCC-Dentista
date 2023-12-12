@@ -1,89 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TCC</title>
     <link rel="stylesheet" href="formcad.css">
 </head>
+
 <body>
 
-<div id="fundo">
+    <div id="fundo">
 
+        <!-- Aqui chamamos nosso Header -->
         <header>
             <div id="itens-header">
-            <img src="imagens/Logo PNG.png" alt="">
-            <h1>DOMRISOS</h1>
-            
+                <img src="imagens/Logo PNG.png" alt=""> <!-- imagem da logo -->
+                <h1>DOMRISOS</h1> <!-- Nome da enpresa -->
+
         </header>
+        <!-- Fim do Header -->
 
-            <section id="form-completo">
+        <!-- Section para ser Estilizada. -->
+        <section id="form-completo">
 
-        <div class="container">
+            <!-- div para guiar -->
+            <div class="container">
 
+                <!-- titulo -->
+                <h1 id="titulo">Cadastro</h1>
 
-            <h1 id="titulo">Cadastro</h1>
+                <!-- Inicio do Formulario -->
+                <form action="">
 
-
-            <form action="">
-
-                <!-- <h3 class="text-inicio">Cadastre-se e tenha <br> sua primeira consulta gratuida conosco!</h3> -->
-
-
-
-                <div class="input-form">
-
-                    <input type="text" id="nome-box" class="text-box" name="nome" placeholder="NOME COMPLETO" required>
-                       
-                </div>
-
-                <div class="input-form">
-
-                    <input type="email" id="email-box" class="text-box" name="email" placeholder="EMAIL" required>
-
-                </div>
+                    <!-- <h3 class="text-inicio">Cadastre-se e tenha <br> sua primeira consulta gratuida conosco!</h3> -->
 
 
-                <div class="input-form">
-                    <input type="password" id="fpsw-box" class="psw-box" name="senha" placeholder="SENHA" required>
+                    <!-- aqui começamos a fazer a estrutura para a Estilização -->
+                    <div class="input-form">
 
-                </div>
+                        <!-- Insermos uma tag de texto  -->
+                        <input type="text" id="nome-box" class="text-box" name="nome" placeholder="NOME COMPLETO"
+                            required>
 
-                <div class="input-form">
+                    </div>
+                    <!-- Fechamos a primeira div -->
 
-                    <input type="password" id="spsw-box" class="psw-box" name="confirmsenha" placeholder="CONFIRMAR SENHA" required>
-                </div>
+                    <!-- Abrimos a segunda div -->
+                    <div class="input-form">
 
-                <div class="input-checkbox">
+                        <!-- Inserimos um input de Email (que so fuciona se tiver um email.) -->
+                        <input type="email" id="email-box" class="text-box" name="email" placeholder="EMAIL" required>
 
-                    <input type="checkbox" id="fcheck-box" class="check-box" name="check" required>
-                    
-                    <label for="check-box">Concordo com os <a href="termuso.html">Termos de uso</a> e a <a href="polpriv.html">Política de Privacidade</a></label>
-                </div>
+                    </div>
+                    <!-- Fechamento da segunda div -->
 
-                <div class="input-checkbox">
+                    <!-- Abrimos nossa terceira Div -->
+                    <div class="input-form">
 
-                    <input type="checkbox" id="scheck-box" class="check-box" name="check">
-                    
-                    <label for="">Aceito receber E-mails com promoções, descontos e ofertas odontologicas DomRisos.</label>
-                </div>
+                        <!-- Aqui chamamos o Input de senha (password) -->
+                        <input type="password" id="fpsw-box" class="psw-box" name="senha" placeholder="SENHA" required>
 
-                <div class="input-submit">
+                    </div>
+                    <!-- Fim da Terceira Div -->
 
-                    <input type="submit" id="submit-button" class="submit" name="submit" value="Cadastrar">
+                    <!-- Abrimos nossa Quarta Div -->
+                    <div class="input-form">
 
-                </div>
+                        <!-- Aqui chamamos o Input de senha (password) -->
+                        <input type="password" id="spsw-box" class="psw-box" name="confirmsenha"
+                            placeholder="CONFIRMAR SENHA" required>
+                    </div>
+                    <!-- Fechamento da nossa Quarta Div -->
 
-                
-        </div>
-        
+                    <!-- Abrimos nossa Quinta Div -->
+                    <div class="input-checkbox">
+
+                        <!-- Acrecentamos um botão(Cheak-box) -->
+                        <input type="checkbox" id="fcheck-box" class="check-box" name="check" required>
+                        <!-- Colocamos uma Label para acrentar algumas informações, temos a tag (A) que a função é virar um link. -->
+                        <label for="check-box">Concordo com os <a href="termuso.html">Termos de uso</a> e a <a
+                                href="polpriv.html">Política de Privacidade</a></label>
+                    </div>
+                    <!-- Fim da nossa Quinta Div -->
+
+                    <!-- Aqui abriimos nossa sexta Div -->
+                    <div class="input-checkbox">
+
+                        <!-- Acrecentamos um botão(Cheak-box) -->
+                        <input type="checkbox" id="scheck-box" class="check-box" name="check">
+
+                        <!-- Colocamos uma Label para acrentar algumas informações -->
+                        <label for="">Aceito receber E-mails com promoções, descontos e ofertas odontologicas
+                            DomRisos.</label>
+                    </div>
+                    <!-- Fim da nossa Sexta div -->
+
+                    <!-- Abrimos nossa Setema Div -->
+                    <div class="input-submit">
+
+                        <!-- Aqui colocamos nosso Input de envio de informação  -->
+                        <input type="submit" id="submit-button" class="submit" name="submit" value="Cadastrar">
+
+                    </div>
+                    <!-- Fim da nossas Setema Div -->
+
+            </div>
+            <!-- Fim da nossas Divs kkkkk -->
+
             </form>
+            <!-- Fim do formulario -->
 
         </section>
-        
+        <!-- Fim da Section -->
 
-    
     </div>
-    
+    <!-- Fim da Div principal -->
+
 </body>
+
 </html>
