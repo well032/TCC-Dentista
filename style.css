@@ -43,6 +43,11 @@ header {
     border-style: transparent;
 }
 
+#texto-header img:hover{
+    transition: 0.4s;
+    width: 9%;   
+}
+
 #texto-header h1 {
     align-items: center;
     font-size: 300%;
@@ -71,6 +76,12 @@ header {
 .item-header a {
     text-decoration: none;
     color: white;
+}
+
+.item-header a:hover{
+    transition: 0.3s;
+    font-size: 1.1em;
+    color: lightslategray;
 }
 /* MENU */
 
@@ -143,6 +154,12 @@ header {
 .tratamento-item img {
     width: 60%;
     border-radius: 50%;
+}
+
+
+.tratamento-item img:hover {
+    transition: 0.4s;
+    width: 64%;
 }
 
 .tratamento-item a {
