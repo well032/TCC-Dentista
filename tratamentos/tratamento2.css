@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    /* preenchimeto*/
+
+    margin: 0;
+    /* Tirar a Margim */
+
+    vertical-align: baseline;
+    /* */
+
+    list-style: none;
+    /* */
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        /* Mudamos a fonte da letra */
+}
+
+/* LOGO */
+#line{
+    background-color: #238881c5; /* cor do fundo */
+    width: 100%; /* Largura */
+    height: 1em; /* Altura*/
+}
+ 
+/* Aqui chamoamos o HEader pra estilizar*/
+header { 
+    background-color: #32C2B9; /* cor do fundo */
+    padding: 1%; /* prerenchimento */
+    overflow: hidden; /* Nao se repetir caso o texto passa do preenchimeto*/
+    align-items: center; /* Alinhameto dos itens ao centro*/
+    display: flex; /* Deixamos os itens lado a lado */
+}
+
+/* vamos mudar o texto*/
+#texto-header { 
+    display: flex; /* Deixamos os itens lado a lado */
+    align-items: center; /* Alinhamos os itens ao centro */
+    margin-left: 2%; /* Espaçamento da esquerda*/
+}
+
+/* vamos mudar o texto*/
+#texto-header img { 
+    background-color: white; /* Cor de fundo*/
+    border-radius: 50%; /* Arredondamos a borda da imagem */
+    width: 8%; /* Largura */
+    border-style: transparent; /* Estilo da borda */
+}
+
+/* Vamos mudar o texto*/
+#texto-header h1 { 
+    align-items: center; /* Alinhamos o texto ao centro */
+    font-size: 300%; /* tamanho da letra*/
+    margin-left: 2%; /* Espacamento da esquerda */
+    color: white; /* Cor da letra */
+    font-weight: 350; /* Espessura da fonte */
+}
+
+/* MENU */
+#list-menu {
+    display: flex; /* Deixamos os itens lado a lado */
+
+}
+
+/* */
+.item-header  {
+    text-decoration: none; /* tiramos  a linha de link */
+    margin-right: 3em; /* Espacamento da direita */
+    font-weight: 100; /* Espessura da letra*/
+}
+
+/* */
+.item-header a {
+    text-decoration: none; /* tiramos  a linha de link */
+    color: white; /* Cor da letra*/
+}
+
+/* IMG DESTAQUE */
+#destaque-prevencao {
+    margin-top: 0.2%; /*Espacamento superior  */
+    background: linear-gradient(180deg, #5f5f5f91 8.33%, rgba(105, 105, 105, 0.623)), url(../imagens/Lente\ de\ Contato.jpg);  /* Filtro com imagem de fundo */
+    padding: 13vw; /* preenchimento */
+    background-repeat: no-repeat; /* Nao repetir a imagem */
+    background-size: cover; /* imagem cobrir a tela, aonde foi designado  */
+    background-position: center; /* Posição da imagem */
+}
+
+/* IMG DESTAQUE */
+#destaque-harmonizacao {
+    margin-top: 0.2%; /* Espacamento superior */
+    background: linear-gradient(180deg, #5f5f5f91 8.33%, rgba(105, 105, 105, 0.623)), url(../imagens/Harmonização\ Facial.jpg); /* Filtro com imagem de fundo */
+    padding: 13vw; /* preenchimento */
+    background-repeat: no-repeat; /* Nao repetir a imagem */
+    background-size: cover; /* imagem cobrir a tela, aonde foi designado  */
+    background-position: center; /* Posição da imagem */
+}
+
+/* */
+#destaque-lente h2 {
+    text-align: center; /* */
+    color: white; /* */
+    font-size: 4em; /* */
+    font-weight: 600; /* */
+    margin-top: -8%; /* */
+}
+
+/* */
+#destaque-implante h2{ /* */
+    text-align: center; /* */
+    color: white; /* */
+    font-size: 4em; /* */
+    font-weight: 600; /* */
+    margin-top: -8%; /* */
+}
+
+/* IMG DESTAQUE */
+#funcionarios {
+    background-color: #d3d3d3c0; /* */
+    margin-top: 13%; /* */
+    padding: 1%; /* */
+    display: flex; /* */
+    margin-bottom: 5%; /* */
+}
+
+/* */
+#funcionario-text h2 {
+    margin-left: 15%; /* */
+    font-weight: 400; /* */
+    font-size: 2em; /* */
+}
+
+/* */
+#funcionario-text p {
+    max-width: 50%; /* */
+    margin: 3%; /* */
+    margin-left: 10%; /* */
+    font-size: 1.2em; /* */
+}
+
+/* */
+#funcionario-text #txt2 { /* */
+    max-width: 70%; /* */
+}
+
+/* */
+#img-tratamento { /* */
+    display: flex; /* */
+    margin-left: 9%; /* */
+    margin-top: 3%; /* */
+}
+
+/* */
+#img-tratamento img { 
+    padding: 2%; /* */
+    width: 30%;  /* */
+    border-radius: 20%; /* */ 
+    transform: translateY(-1.3em); /* */
+}
+ 
+/* Sobre Nós */
+#sobre-nos {
+    background-color: #d3d3d3; /* */
+    padding: 5%; /* */
+}
+
+/* */
+#sobre-nos h2 {
+    text-align: left; /* */
+    font-size: 2em; /* */
+    font-weight: 450; /* */
+}
+
+/* */
+#sobre-nos p {
+    max-width: 50%; /* */
+    font-size: 1.3em; /* */
+    margin-top: 3%; /* */
+    }
+
+    /* */
+#sobre-nos h3 {
+    background-color:  #32C2B9; /* */
+    padding: 1% 5%; /* */
+    border-radius: 15px; /* */
+    max-width: 18%; /* */
+}
+
+/* */
+#div-sobre img {
+    width: 25%; /* */
+    height: 30%; /* */
+    border-radius: 20%; /* */
+    margin-left: 15%; /* */
+}
+
+/* */
+#div-sobre{
+    display: flex; /* */
+}
+/* Fim do sobre Nós */
