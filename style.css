@@ -116,13 +116,36 @@ header {
 
 }
 
+#info-destaque a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    
+}
+
+#info-destaque img{
+    width: 5%;
+    margin: 0%;
+    padding: -10%;
+}
+
+#info-destaque a:hover {
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.1em;
+
+}
+
 #info-destaque p {
     color: rgb(0, 0, 0);
-    font-size: 2em;
-    background-color: #C0C0C0;
-    padding: 1% 7%;
+    font-size: 1.5em;
+    background-color: #c0c0c0;
+    padding: 1%;
+    max-width: 50%;
+    text-decoration: none;
     border-radius: 30px;
-
+    margin: 0 auto;
 }
 
 /* IMG DESTAQUE */
@@ -475,6 +498,19 @@ footer img {
        margin: 10%;
 
        transform: translateY(-10vh);
+    }
+
+    #info-destaque img{
+        width: 15%;
+       
+        
+    }
+
+    #info-destaque p{
+        font-size: 1.1em;
+        max-width: 150%;
+       
+        
     }
 
     /* Tratamentos */
