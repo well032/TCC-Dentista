@@ -425,6 +425,8 @@ footer {
     }
     /* LOGO */
 
+    /*parte principal do site*/
+
     #destaque {
         padding: 20%;
     }
@@ -482,6 +484,49 @@ footer {
         max-width: none;
         
     }
+    /*visitas*/
+    #visite{
+        padding: 12%;
+    }
+    #visite h2  { 
+        
+       font-size: 200%;
+        
+        
+    }
+    /*sobre nós*/
+
+    #sobre-nos {
+        display: block;
+    }
+
+    #sobre-nos h2 {
+       text-align: center;
+
+    }
+
+    #div-sobre img {
+        width: 45%; /* tamanho da imagem*/
+      margin-top: 40%;
+
+    }
+
+    #div-sobre p {
+       font-size: 1em;
+       
+    }
+
+    #sobre-nos h3 {
+        font: bold; /* deixar a letra um pouco mais grossa*/
+        font-size: 1.2em;
+        display: block;
+        text-align: justify;
+        margin: 0;
+        max-width: none;
+
+
+    }
+
 
 
   
