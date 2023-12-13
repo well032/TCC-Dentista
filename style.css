@@ -513,18 +513,24 @@ footer {
 
     #div-sobre p {
        font-size: 1em;
+       text-align: justify;
        
     }
 
     #sobre-nos h3 {
         font: bold; /* deixar a letra um pouco mais grossa*/
         font-size: 1.2em;
-        display: block;
-        text-align: justify;
+        text-align: center;
         margin: 0;
         max-width: none;
+    }
 
-
+    #detalhes {
+        display: flex;
+        
+    }
+    #detalhes img {
+        width: 1.7em;
     }
 
 
