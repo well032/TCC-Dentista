@@ -120,3 +120,139 @@ a {
 
 /* Adicione estilos adicionais conforme necessário */
 
+
+/* estilizando o rodapé*/
+footer {
+    background-color: #32C2B9;
+    margin-top: 4%;
+    overflow: hidden;
+}
+
+.info-footer {
+    display: flex;
+    align-items: center;
+}
+
+
+.info-footer h2 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 200;
+    align-items: center;
+}
+
+
+footer img {
+    width: 10%;
+    border-radius: 50vh;
+    margin: 1.5rem;
+}
+
+.sessao-footer {
+    text-align: center;
+
+}
+
+
+.linha-footer {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 3px;
+    border-width: 0;
+    background-color: white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+
+.contatos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contatos-list{
+    display: flex;
+    width: 20%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.contatos-list p{
+    text-wrap: nowrap;
+    margin-left: -2vh;
+    color: white;
+}
+
+.line{
+    background-color: #238881c5;
+    width: 100%;
+    height: 1em;
+}
+
+
+
+@media (max-width : 430px) {
+    #itens-header h1 {
+        font-size: 2em;
+    }
+    #itens-header img {
+        width: 15%;
+    }
+    form {
+        width: 95%;
+    }
+    #nome-box {
+        margin-top: 12%;
+    }
+
+        /* Footer */
+
+        .sessao-footer {
+            display: block;
+        }
+    
+        .sessao-footer img {
+            width: 15%;
+            margin: 1em;
+            text-align: center;
+        }
+    
+        .sessao-footer h2 {
+            text-align: center;
+            font-size: 3.1em;
+        }
+    
+        #menu-footer {
+            display: block;
+            text-align: center;
+        }
+    
+
+        .linha-footer {
+            width: 90%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    
+        .contatos-footer {
+            display: block;
+        } 
+      
+        .contatos-list{
+            display: flex;
+            width: 100%;
+            padding: 1%;
+        }
+    
+        .final-footer {
+            color: white;
+            font-size: 1.5rem;
+        }
+    
+    
+    }
