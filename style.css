@@ -281,14 +281,14 @@ header {
 /* Sobre Nós */
 
 
-#detalhes {
+.detalhes {
     background-color: #C0C0C0;
     padding: 1%;
     display: flex;
 
 }
 
-#detalhes ul {
+.detalhes ul {
     /* colocar os itens lado a lado, nao consegui, tentei ao maximo !!*/
     
     overflow: hidden;
@@ -297,7 +297,7 @@ header {
 
 }
 
-#detalhes li {
+.detalhes li {
     /* colocar os itens lado a lado, nao consegui, tentei ao maximo !!*/
  
     overflow: hidden;
@@ -306,7 +306,7 @@ header {
     justify-content: center;
 }
 
-#detalhes p {
+.detalhes p {
     display: flex;
     align-items: center;
     margin-left: 2%;
@@ -314,7 +314,7 @@ header {
     text-align: center;
 }
 
-#detalhes img {
+.detalhes img {
     width: 15%;
     height: 5%;
     display: flex;
@@ -331,7 +331,8 @@ header {
 /* estilizando o rodapé*/
 footer {
     background-color: #32C2B9;
-   overflow: hidden;
+    margin-top: 4%;
+    overflow: hidden;
 }
 
 .info-footer {
@@ -375,7 +376,7 @@ footer img {
 .meio-footer a {
     text-decoration: none;
     display: flex;
-    margin-left: 40px;
+    margin-left: 10em;
     text-align: center;
     text-wrap: nowrap;
     text-transform: uppercase;
@@ -405,18 +406,33 @@ footer img {
 
 .sessao-footer {
     display: flex;
-    
 }
 
-
-.contatos-footer {
+.contatos-footer{
     display: flex;
-    text-align: center;
     justify-content: center;
-    color: white;
-    padding: 2%;
-    padding-bottom: 3%;
+    align-items: center;
 }
+
+
+.contatos-list{
+    display: flex;
+    width: 10%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.contatos-list p{
+    text-wrap: nowrap;
+    margin-left: -2vh;
+    color: white;
+}
+
+
+
+
 
 /*Aqui estou estilizando nosso CSS para responsividade*/
 
@@ -551,19 +567,78 @@ footer img {
         max-width: none;
     }
 
-    #detalhes {
-        display: flex;
+    .detalhes {
+        display: block;
+        font-size: 0.9em;
         
     }
-    #detalhes img {
-        width: 1.7em;
+
+    .detalhes img {
+        width: 1.9em;
+        justify-content: space-between;
+    }
+    
+    /* Footer */
+
+    footer{
+        
     }
 
+    .sessao-footer {
+        display: block;
+    }
 
+    .sessao-footer img {
+        width: 20%;
+        margin: 1em;
+        text-align: center;
+    }
 
+    .sessao-footer h2 {
+        text-align: center;
+    }
+
+    #menu-footer {
+        display: block;
+        text-align: center;
+    }
+
+    .voltar-topo {
+        display: none;
+    }
+    
+    .meio-footer a{
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    .term-footer {
+        margin-right: 30%;
+    }
+
+    .sessao-footer iframe {
+        margin: 5%;
+    }
+
+    .linha-footer {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contatos-footer {
+        display: block;
+    } 
   
+    .contatos-list{
+        display: flex;
+        width: 50%;
+        padding: 1%;
+    }
 
-  
+    .contatos-list p{
+        color: white;
+        font-size: 1.5rem;
+    }
 
-  
 }
