@@ -3,17 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lente de contato</title>
+    <title>DOMRISOS</title>
     <link rel="stylesheet" href="tratamento1.css">
-    <link rel="shortcut icon" href="imagens/Logo.Ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagens/Logo.Ico.ico" type="image/x-icon">
 </head>
 <body>
+
+    <!-- função para defeciente visual  -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget();
+    </script>
+
+    <!-- fim  -->
+
+    <div id="line"></div>
 
     <header>
 
         <div id="texto-header">
 
-            <img src="imagens/Logo PNG.png" alt=""> <!-- Nossa loga -->
+            <img src="../imagens/Logo PNG.png" alt=""> <!-- Nossa logo -->
             <h1>DOMRISOS</h1> <!-- Nome da nossa empresa -->
 
         </div>
@@ -24,29 +40,32 @@
             <ul id="list-menu"> <!-- Abrimos nossa Ul (Lista) para ser criada  -->
 
                 <li class="item-header">
-
                     <a href=""> HOME </a> <!-- chamamos o (a) para virar um link, junto com o Texto.-->
                 </li>
 
-
                 <li class="item-header">
-
                     <a href=""> SOBRE </a> <!-- chamamos o (a) para virar um link, junto com o Texto.-->
-
                 </li>
 
-
                 <li class="item-header">
-
                     <a href=""> CONTATO </a> <!-- chamamos o (a) para virar um link, junto com o Texto.-->
+                </li>
 
             </ul>
-
-        </li>
-
+            <!-- fechamento da nossa lista -->
         </nav>
+        <!-- fechamento do nosso menu de navegação -->
+
+        <div class="item-header" id="login">
+
+            <a href="formcad.html"> <!-- função do (A) pra virar link -->
+                <p>LOGIN</p> <!-- Nome do casdastro -->
+            </a>
+
+        </div>
 
     </header>
+    <!-- Fim do Header -->
 
     <section id="destaque-lente">
         
@@ -65,25 +84,16 @@
 
             <div id="part-text">
 
-                <h2>lente de Contato</h2> <!-- Titulo -->
+                <h2>LENTES DE CONTATO</h2> <!-- Titulo -->
 
 
                 
-                <p>Com uma sólida trajetória de 10 anos no mercado, somos a referência em cuidados odontológicos na
-                    região. Na Clínica DOMRISOS, comprometemo-nos a oferecer serviços de excelência, proporcionando
-                    aos
-                    nossos pacientes motivos para sorrir. Sua saúde bucal está em mãos confiáveis na melhor clínica
-                    da
-                    região.
+                <p>As lentes de contato dentais estão cada vez mais comuns.
+                    Mas como funciona? Elas são lâminas finas de porcelana ou de algum outro composto da cor do dente, renovando a aparência do sorriso.
+                    E há um preço: elas são coladas com cimento adesivo por cima da superfície do seu dente natural. Ou seja, é um processo mais permanente. Além disso, não é o método mais indicado para pessoas com bruxismo ou que roem as unhas, por exemplo.
+                    Em outras palavras, é uma opção mais invasiva (e que precisa de uma avaliação mais criteriosa do(a) dentista) do que o clareamento dental clareamento dental.
                                             
-                    <p id="txt2">
-
-                    “Sempre me dediquei intensamente a tudo que fiz. Adquiri uma sólida formação, mas não me
-                    contentei
-                    apenas com isso, e me especializei em odontopediatria, ortodontia e cirurgia bucomaxilofacial.
-                    Com
-                    essa vasta bagagem de conhecimento, eu ofereço o melhor cuidado possível aos meus pacientes.”
-                </p>
+             
                 </p>
             </div>
 
