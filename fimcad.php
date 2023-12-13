@@ -8,16 +8,15 @@
 </head>
 <body>
     <header>
-        <h1>Cadastro de Clientes | GC PADARIA</h1>
+        <h1>Cadastro de Clientes | DOMRISOS</h1>
     </header>
 
     <main class="text">
         <?php 
             $nome = $_GET["nome"];
-            $sobrenome = $_GET["sobrenome"];
             $email = $_GET["email"];
 
-            echo "<p>É um prazer te conhecer, a GC PADARIA agradece a você $nome $sobrenome! Entraremos em contato com você! <p/>";
+            echo "<p>É um prazer te conhecer, a DOMRISOS agradece a você $nome Entraremos em contato com você! <p/>";
         ?>
 
         <button class="text-js">

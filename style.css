@@ -392,7 +392,7 @@ footer img {
 .meio-footer a {
     text-decoration: none;
     display: flex;
-    margin-left: 10em;
+    margin-left: 5em;
     text-align: center;
     text-wrap: nowrap;
     text-transform: uppercase;
@@ -416,8 +416,8 @@ footer img {
     justify-content: center;
 }
 
-#loc {
-    margin-right: 5rem;
+.maps iframe {
+    margin-right: 1rem;
 }
 
 .sessao-footer {

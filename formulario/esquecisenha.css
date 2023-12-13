@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#fundo {
+    background-image: linear-gradient(to top, white, #3a3b3b7c);
+}
+
+header {
+    background-color: #32C2B9;
+    padding: 1%;
+    overflow: hidden;
+    align-items: center;
+    display: block;
+}
+
+#itens-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#itens-header img {
+    background-color: white;
+    border-radius: 50%;
+    width: 8%;
+    border-style: transparent;
+}
+
+#itens-header h1 {
+    align-items: center;
+    font-size: 300%;
+    margin-left: 2%;
+    color: white;
+    font-weight: 350;
+} 
+
+
+.container { /* Aqui estamos chamando nossa Class da DIV PAI */
+    margin: 0 auto; /* dizemos ao navegar que as margens superior e inferior são iguais a 0 e as da esquerda a direita são automáticas */
+    margin-top: 1%;
+}
+
+
+#titulo {
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 2.5em;
+    color: white;
+    font-style: italic;
+}
+
+.input-form p {
+    font-size: 1.2em;
+    margin-bottom: 10%;
+
+}
+
+.input-form {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-color: #ffffff80;
+    width: 30%;
+    height: 60vh;
+    padding: 5%;
+    border-radius: 35px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.text-box {
+    margin-bottom: 2%;
+    width: 80%;
+    height: 6vh;
+    border-radius: 100px;
+    padding: 2%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+
+.psw-box {
+    margin-bottom: 2%;
+    width: 80%;
+    height: 6vh;
+    border-radius: 75px;
+    padding: 2%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#fpsw-box {
+ margin-top: 5%;
+}
+
+
+.submit {
+    background-color: #44d4cb;
+    width: 30vh;
+    height: 8vh;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.input-submit {
+    margin-top: 8%;
+    text-align: center;
+}
+
+/* estilizando o rodapé*/
+footer {
+    background-color: #32C2B9;
+    margin-top: 4%;
+    overflow: hidden;
+}
+
+.info-footer {
+    display: flex;
+    align-items: center;
+}
+
+
+.info-footer h2 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 200;
+    align-items: center;
+}
+
+
+footer img {
+    width: 10%;
+    border-radius: 50vh;
+    margin: 1.5rem;
+}
+
+.sessao-footer {
+    text-align: center;
+
+}
+
+
+.linha-footer {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 3px;
+    border-width: 0;
+    background-color: white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+
+.contatos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contatos-list{
+    display: flex;
+    width: 20%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.contatos-list p{
+    text-wrap: nowrap;
+    margin-left: -2vh;
+    color: white;
+}
+
+.line{
+    background-color: #238881c5;
+    width: 100%;
+    height: 1em;
+}
+
+.voltar-pagina{
+    margin: 0 auto;
+    background-color: #32C2B9;
+    padding: 2%;
+    text-align: center;
+    width: 20%;
+    border-radius: 50vh;
+}
+
+.voltar-pagina a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media (max-width : 430px) {
+    #itens-header h1 {
+        font-size: 2em;
+    }
+    #itens-header img {
+        width: 15%;
+    }
+    form {
+        width: 95%;
+    }
+    #nome-box {
+        margin-top: 12%;
+    }
+
+        /* Footer */
+
+        .sessao-footer {
+            display: block;
+        }
+    
+        .sessao-footer img {
+            width: 15%;
+            margin: 1em;
+            text-align: center;
+        }
+    
+        .sessao-footer h2 {
+            text-align: center;
+            font-size: 3.1em;
+        }
+    
+        #menu-footer {
+            display: block;
+            text-align: center;
+        }
+    
+
+        .linha-footer {
+            width: 90%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    
+        .contatos-footer {
+            display: block;
+        } 
+      
+        .contatos-list{
+            display: flex;
+            width: 100%;
+            padding: 1%;
+        }
+    
+        .final-footer {
+            color: white;
+            font-size: 1.5rem;
+        }
+    
+    
+    }
