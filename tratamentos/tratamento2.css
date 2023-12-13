@@ -3,7 +3,7 @@
     /* preenchimeto*/
 
     margin: 0;
-    /* Tirar a Margim */
+    /* Tirar a Margem */
 
     vertical-align: baseline;
     /* */
@@ -16,68 +16,82 @@
 }
 
 /* LOGO */
+/* LOGO */
 #line{
-    background-color: #238881c5; /* cor do fundo */
-    width: 100%; /* Largura */
-    height: 1em; /* Altura*/
-}
- 
-/* Aqui chamoamos o HEader pra estilizar*/
-header { 
-    background-color: #32C2B9; /* cor do fundo */
-    padding: 1%; /* prerenchimento */
-    overflow: hidden; /* Nao se repetir caso o texto passa do preenchimeto*/
-    align-items: center; /* Alinhameto dos itens ao centro*/
-    display: flex; /* Deixamos os itens lado a lado */
+    background-color: #238881c5;
+    width: 100%;
+    height: 1em;
 }
 
-/* vamos mudar o texto*/
-#texto-header { 
-    display: flex; /* Deixamos os itens lado a lado */
-    align-items: center; /* Alinhamos os itens ao centro */
-    margin-left: 2%; /* Espaçamento da esquerda*/
+header {
+    background-color: #32C2B9;
+    padding: 1%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
 }
 
-/* vamos mudar o texto*/
-#texto-header img { 
-    background-color: white; /* Cor de fundo*/
-    border-radius: 50%; /* Arredondamos a borda da imagem */
-    width: 8%; /* Largura */
-    border-style: transparent; /* Estilo da borda */
+#texto-header {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
 }
 
-/* Vamos mudar o texto*/
-#texto-header h1 { 
-    align-items: center; /* Alinhamos o texto ao centro */
-    font-size: 300%; /* tamanho da letra*/
-    margin-left: 2%; /* Espacamento da esquerda */
-    color: white; /* Cor da letra */
-    font-weight: 350; /* Espessura da fonte */
+#texto-header img {
+    background-color: white;
+    border-radius: 50%;
+    width: 8%;
+    border-style: transparent;
 }
+
+#texto-header img:hover{
+    transition: 0.4s;
+    width: 9%;   
+}
+
+#texto-header h1 {
+    align-items: center;
+    font-size: 300%;
+    margin-left: 2%;
+    color: white;
+    font-weight: 350;
+}
+
+/* LOGO */
+
+
 
 /* MENU */
+
 #list-menu {
-    display: flex; /* Deixamos os itens lado a lado */
+    display: flex;
 
 }
 
-/* */
 .item-header  {
-    text-decoration: none; /* tiramos  a linha de link */
-    margin-right: 3em; /* Espacamento da direita */
-    font-weight: 100; /* Espessura da letra*/
+    text-decoration: none;
+    margin-right: 3em;
+    font-weight: 100;
 }
 
-/* */
 .item-header a {
-    text-decoration: none; /* tiramos  a linha de link */
-    color: white; /* Cor da letra*/
+    text-decoration: none;
+    color: white;
 }
+
+.item-header a:hover{
+    transition: 0.3s;
+    font-size: 1.1em;
+    color: lightslategray;
+}
+/* MENU */
+
+
 
 /* IMG DESTAQUE */
 #destaque-prevencao {
     margin-top: 0.2%; /*Espacamento superior  */
-    background: linear-gradient(180deg, #5f5f5f91 8.33%, rgba(105, 105, 105, 0.623)), url(../imagens/Lente\ de\ Contato.jpg);  /* Filtro com imagem de fundo */
+    background: linear-gradient(180deg, #5f5f5f91 8.33%, rgba(105, 105, 105, 0.623)), url(../imagens/Prevenção.jpg);  /* Filtro com imagem de fundo */
     padding: 13vw; /* preenchimento */
     background-repeat: no-repeat; /* Nao repetir a imagem */
     background-size: cover; /* imagem cobrir a tela, aonde foi designado  */
@@ -85,7 +99,7 @@ header {
 }
 
 /* IMG DESTAQUE */
-#destaque-harmonizacao {
+#destaque-img{
     margin-top: 0.2%; /* Espacamento superior */
     background: linear-gradient(180deg, #5f5f5f91 8.33%, rgba(105, 105, 105, 0.623)), url(../imagens/Harmonização\ Facial.jpg); /* Filtro com imagem de fundo */
     padding: 13vw; /* preenchimento */
@@ -95,7 +109,7 @@ header {
 }
 
 /* */
-#destaque-lente h2 {
+#destaque-img h2 {
     text-align: center; /* */
     color: white; /* */
     font-size: 4em; /* */
@@ -112,24 +126,17 @@ header {
     margin-top: -8%; /* */
 }
 
-/* IMG DESTAQUE */
-#funcionarios {
-    background-color: #d3d3d3c0; /* */
-    margin-top: 13%; /* */
-    padding: 1%; /* */
-    display: flex; /* */
-    margin-bottom: 5%; /* */
-}
+/* IMG DESTAQUE */ 
 
 /* */
-#funcionario-text h2 {
+#funcionario h2 {
     margin-left: 15%; /* */
     font-weight: 400; /* */
     font-size: 2em; /* */
 }
 
 /* */
-#funcionario-text p {
+#funcionario p {
     max-width: 50%; /* */
     margin: 3%; /* */
     margin-left: 10%; /* */
@@ -137,7 +144,7 @@ header {
 }
 
 /* */
-#funcionario-text #txt2 { /* */
+#funcionario #txt2 { /* */
     max-width: 70%; /* */
 }
 
@@ -156,44 +163,19 @@ header {
     transform: translateY(-1.3em); /* */
 }
  
-/* Sobre Nós */
-#sobre-nos {
-    background-color: #d3d3d3; /* */
-    padding: 5%; /* */
-}
+/*  */
+/*  */
 
-/* */
-#sobre-nos h2 {
-    text-align: left; /* */
-    font-size: 2em; /* */
-    font-weight: 450; /* */
-}
-
-/* */
-#sobre-nos p {
-    max-width: 50%; /* */
-    font-size: 1.3em; /* */
-    margin-top: 3%; /* */
-    }
-
-    /* */
-#sobre-nos h3 {
-    background-color:  #32C2B9; /* */
-    padding: 1% 5%; /* */
-    border-radius: 15px; /* */
-    max-width: 18%; /* */
-}
-
-/* */
-#div-sobre img {
-    width: 25%; /* */
-    height: 30%; /* */
-    border-radius: 20%; /* */
-    margin-left: 15%; /* */
-}
-
-/* */
-#div-sobre{
+#tratamento-geral2{ /* */
     display: flex; /* */
+    margin-left: 9%; /* */
+    margin-top: 3%; /* */
 }
-/* Fim do sobre Nós */
+
+/* */
+#tratamento-geral2 img { 
+    padding: 2%; /* */
+    width: 35%;  /* */
+    transform: translateY(-1.3em); /* */
+}
+ 
