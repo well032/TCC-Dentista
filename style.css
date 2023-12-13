@@ -321,13 +321,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
 /* estilizando o rodapé*/
 footer {
     background-color: #32C2B9;
@@ -475,6 +468,9 @@ footer img {
 
     #info-destaque p  {
        justify-content: space-between;
+       margin: 10%;
+
+       transform: translateY(-10vh);
     }
 
     /* Tratamentos */
