@@ -99,9 +99,9 @@ header {
 }
 
 /* IMG DESTAQUE */
-#destaque-img{
+#destaque-harmonizacao{
     margin-top: 0.2%; /* Espacamento superior */
-    background: linear-gradient(180deg, #5f5f5f91 8.33%, rgba(105, 105, 105, 0.623)), url(../imagens/Harmonização\ Facial.jpg); /* Filtro com imagem de fundo */
+    background: linear-gradient(180deg, #5f5f5f91 8.33%, rgba(105, 105, 105, 0.623)), url(../imagens/Harmonização\ 2.jpg); /* Filtro com imagem de fundo */
     padding: 13vw; /* preenchimento */
     background-repeat: no-repeat; /* Nao repetir a imagem */
     background-size: cover; /* imagem cobrir a tela, aonde foi designado  */
@@ -109,7 +109,7 @@ header {
 }
 
 /* */
-#destaque-img h2 {
+#destaque-harmonizacao h2 {
     text-align: center; /* */
     color: white; /* */
     font-size: 4em; /* */
@@ -118,7 +118,7 @@ header {
 }
 
 /* */
-#destaque-implante h2{ /* */
+#destaque-prevencao h2{ /* */
     text-align: center; /* */
     color: white; /* */
     font-size: 4em; /* */
@@ -129,22 +129,27 @@ header {
 /* IMG DESTAQUE */ 
 
 /* */
-#funcionario h2 {
-    margin-left: 15%; /* */
-    font-weight: 400; /* */
-    font-size: 2em; /* */
+#tratamento-geral h2 {
+    text-decoration: underline;
+    margin-left: 15%;
+    font-weight: 400;
+    font-size: 2em;
+    
 }
 
 /* */
-#funcionario p {
-    max-width: 50%; /* */
-    margin: 3%; /* */
-    margin-left: 10%; /* */
-    font-size: 1.2em; /* */
+#tratamento-geral p {
+    max-width: 60%;
+    margin: 3%;
+    margin-left: 15%;
+    font-size: 1.1em;
 }
 
 /* */
-#funcionario #txt2 { /* */
+#tratamento-geral ul li{ /* */
+    list-style: inside;
+    margin-left: 10%;
+    font-weight: 500;
     max-width: 70%; /* */
 }
 
@@ -159,7 +164,7 @@ header {
 #img-tratamento img { 
     padding: 2%; /* */
     width: 30%;  /* */
-    border-radius: 20%; /* */ 
+
     transform: translateY(-1.3em); /* */
 }
  
@@ -168,14 +173,137 @@ header {
 
 #tratamento-geral2{ /* */
     display: flex; /* */
-    margin-left: 9%; /* */
+    padding: 4%; /* */
     margin-top: 3%; /* */
+    background-color: #C0C0C0;
+    margin-bottom: 6%;
+}
+
+#tratamento-geral2 h2 {
+    text-decoration: underline;
+    margin-left: 10%;
+    font-weight: 400;
+    font-size: 2em;
+    
+}
+
+#tratamento-geral2 p {
+    max-width: 60%;
+    margin: 3%;
+    margin-left: 10%;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 /* */
 #tratamento-geral2 img { 
     padding: 2%; /* */
-    width: 35%;  /* */
+    width: 30%;  /* */
     transform: translateY(-1.3em); /* */
+    margin-right: 4%;
 }
+
  
+ 
+/* estilizando o rodapé*/
+footer {
+    background-color: #32C2B9;
+    margin-top: 4%;
+    overflow: hidden;
+}
+
+.info-footer {
+    display: flex;
+    align-items: center;
+}
+
+
+.info-footer h2 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 200;
+    align-items: center;
+}
+
+
+.sessao-footer iframe {
+    margin: 3rem;
+}
+
+#menu-footer ul{
+    display: flex;
+
+}
+
+#menu-footer {
+    display: flex;
+    align-items: center;
+
+}
+
+
+footer img {
+    width: 20%;
+    border-radius: 50vh;
+    margin: 1.5rem;
+}
+
+
+
+.meio-footer a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 10em;
+    text-align: center;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+
+.linha-footer {
+    display: flex;
+    align-items: center;
+    width: 68%;
+    height: 3px;
+    border-width: 0;
+    background-color: white;
+    margin-right: 4%;
+    margin-left: 3%;
+}
+
+.texto-meio {
+    display: flex;
+    justify-content: center;
+}
+
+#loc {
+    margin-right: 5rem;
+}
+
+.sessao-footer {
+    display: flex;
+}
+
+.contatos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contatos-list{
+    display: flex;
+    width: 10%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.contatos-list p{
+    text-wrap: nowrap;
+    margin-left: -2vh;
+    color: white;
+}
+

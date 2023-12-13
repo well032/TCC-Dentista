@@ -145,16 +145,16 @@ header {
 
 #tratamento-geral h2 {
     text-decoration: underline;
-    margin-left: 10%;
+    margin-left: 15%;
     font-weight: 400;
     font-size: 2em;
     
 }
 
 #tratamento-geral p {
-    max-width: 50%;
+    max-width: 60%;
     margin: 3%;
-    margin-left: 10%;
+    margin-left: 15%;
     font-size: 1.1em;
 }
 
@@ -174,3 +174,107 @@ header {
     transform: translateY(-1.3em);
 
 }
+
+
+/* estilizando o rodapé*/
+footer {
+    background-color: #32C2B9;
+    margin-top: 4%;
+    overflow: hidden;
+}
+
+.info-footer {
+    display: flex;
+    align-items: center;
+}
+
+
+.info-footer h2 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 200;
+    align-items: center;
+}
+
+
+.sessao-footer iframe {
+    margin: 3rem;
+}
+
+#menu-footer ul{
+    display: flex;
+
+}
+
+#menu-footer {
+    display: flex;
+    align-items: center;
+
+}
+
+
+footer img {
+    width: 20%;
+    border-radius: 50vh;
+    margin: 1.5rem;
+}
+
+
+
+.meio-footer a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 10em;
+    text-align: center;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+
+.linha-footer {
+    display: flex;
+    align-items: center;
+    width: 68%;
+    height: 3px;
+    border-width: 0;
+    background-color: white;
+    margin-right: 4%;
+    margin-left: 3%;
+}
+
+.texto-meio {
+    display: flex;
+    justify-content: center;
+}
+
+#loc {
+    margin-right: 5rem;
+}
+
+.sessao-footer {
+    display: flex;
+}
+
+.contatos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contatos-list{
+    display: flex;
+    width: 10%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.contatos-list p{
+    text-wrap: nowrap;
+    margin-left: -2vh;
+    color: white;
+}
+
